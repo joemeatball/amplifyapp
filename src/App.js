@@ -11,8 +11,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello from V2</h1>
       </header>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
     </div>
-<div class="g-signin2" data-onsuccess="onSignIn"></div>
+
   );
 }
 
